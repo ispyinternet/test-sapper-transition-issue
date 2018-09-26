@@ -1,6 +1,6 @@
 <main style='position:relative;text-align:center;padding:20px;'>
 	<h2>Top Level Layout</h2>
-	<svelte:component this={child.component} />
+	<svelte:component this={child.component} {...child.props}/>
 </main>
 
 <script>
