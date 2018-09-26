@@ -1,0 +1,13 @@
+<div transition:fade style='position:absolute'>
+    <h3>Route A (part 2)</h3>
+    <p><a href='/a/'>part1</a></p>
+    <p><a href='/b/'>Switch top layout by navigating to different top level route</a></p>
+</div>
+
+<script>
+    import fade from 'svelte-transitions-fade';
+
+    export default {
+        transitions: { fade }
+    }
+</script>
